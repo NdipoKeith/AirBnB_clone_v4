@@ -1,4 +1,4 @@
-$.(document).ready(function() {
+$(document).ready(function() {
 	let checkedAmenities = {};
 	$(document).on('change', "input[type='checkbox']", fucntion() {
 		if (this.checked) {
