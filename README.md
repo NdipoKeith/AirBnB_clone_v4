@@ -41,6 +41,8 @@ List of commands this console current supports:
 * `all` - Prints all string representation of all instances based or not on the class name. 
 * `update` - Updates an instance based on the class name and id by adding or updating attribute (save the change into the JSON file). 
 
+##              BACK-END
+
 ## [MODELS](/models)
 
 #### `models/` directory contains classes used for this project:
@@ -231,7 +233,7 @@ The views handle incoming requests, process data, and generate responses. THe vi
 [/stats/](/api/v1/views/index.py) - This API endpoint is used to retrieve the number of various objects by type. The only HTTP method available to it is the GET method.
 
 
-## Front-End
+##              FRONT-END
 
 This area provides an overview of the front-end code of the Airbnb CLone pplication. The front-end is built with HTML, CSS, and jQuery to display data retrieved from a separate RESTful API.
 
