@@ -132,14 +132,17 @@ This web application uses RESTful APIs. The REST APIs adhere to principles of RE
 
 [/api](/api) - The directory contains the API:
 THe directory houses the RESTFUL API endpoints that power the backend functionality of the AirBnB_clone application. It provides a structured and scalable interface for web applocation to interact with the underlying database layer.
+
 [/views](/api/views) - The directory contains the views of the flask web-app.
 The views handle incoming requests, process data, and generate responses. THe views are decorated with @app.route decorator.
 
-*******API ENDPOINTS*******
+*******APiI ENDPOINTS*******.
+
 [/users/](/api/v1/views/users.py) - The endpoint for accessing the user data for the web application.
          *  There are various HTTP methods that can be operated on the following endpoint, ie:
            - GET, to retrieve the list of all the user objects
            - POST HTTP method to create a new user
+
 [/users/user_id/](/api/vi/views/users.py) - The endpoint is for accessing specific user data. It has folloeing HTTP methods available to it:
             - GET, to retrieve data about a specific user.
             - DELETE, to delete the user object
@@ -148,6 +151,7 @@ The views handle incoming requests, process data, and generate responses. THe vi
 [/states](/api/v1/views/states.py) - This API endpoint is used to access the state objects available. It has following HTTP methods available;
             -   GET, a method used to retrieve the list of all state objects.
             -   POST, a method used to create a new state object.
+
 [/states/state_id](/api/v1/views/states.py) - This endpoint is used to access individual state object by using the id. It has the following HTTP methods available to it;
             -   GET, a method used to retrieve the individual specific state .
             -   DELETE, a method used to delete an individual specific state from the database
@@ -156,13 +160,16 @@ The views handle incoming requests, process data, and generate responses. THe vi
 [/states/state_id/cities](/api/v1/views/cities.py) - This endpoint is used to access city objects available in the database. It has the following HTTP methods available to it;
             -   Get, Retrieves a list of all city objects  of a specific state.
             -   POST, a method used to create a new city object.
+
 [/cities/ciy_id](/api/v1/views/cities.py) - This endpoint is used to retrieve the data for a specific city, identified by id. The HTTP methods available to the endpoints are:
             -   GET, to retrieve a specific city based on id.
             -   DELETE, to delete a specific city based on id.
             -   PUT, to update a city info based on id.
+
 [/cities/city_id/places](/api/v1/views/places.py) - This nedpoint is used to access place oblects within a specific city. The HTTP methods available for this endpoint arel
             -   GET, to retrieve the list of all the place objects in of a city.
             -   POST, used to create a new places object.
+
 [/places/place_id](/api/v1/views/places.py) - This endpoint is used to access specific places using their id. The HTTP methods available for the following endpoint are;
             -   GET, to retrieve data about a specific place by id.
             -   DELETE, to delete data about a specific place identifying it by id.
@@ -170,6 +177,7 @@ The views handle incoming requests, process data, and generate responses. THe vi
 
 [/places/place_id/amenities](/api/v1/views/places_amenities.py) - This endpoint is used to handle the api actions for amenities of a place. It has the following HTTP methods available to it;
             -   GET, used to retrieve the list of all amenity objects of a place.
+
 [/places/place_id/amenities/amenity_id](/api/v1/views/places_amenities.py) - This endpoint is used to handle the API actions for a specific amenity of a place identified by an id. It has the following HTTP methods to it;
             -   GET, to retrieve an amenity of a place.
             -   DELETE, to delete an amenity object of a place.
@@ -179,12 +187,14 @@ The views handle incoming requests, process data, and generate responses. THe vi
 [/places/place_id/reviews](/api/v1/views/places_reviews.py) - This endpoint is used to handle the API actions for reviews. It has the following HTTP methods to it;
             -   GET, to retrieve the list of all revies of a specific place
             -   POST, to create a new review for a place.
+
 [/reviews/review_id/](/api/v1/views/places_reviews.py) - This endpoint is used to handle the API actions for a specific review. It has the following HTTP methods to it;
             -   GET, used to retrieve a review of a place by id.
             -   DELETE, used to delete a review of a place.
             -   PUT, used to update the review of a place.
 
 [/status](/api/v1/views/index.py) - This API endpoint is used to handle the response of the API in general. It returns {"status": "OK"} when the API is working. It has just HTTP method GET available to it.
+
 [/stats/](/api/v1/views/index.py) - This API endpoint is used to retrieve the number of various objects by type. The only HTTP method available to it is the GET method.
 
 ## Examples of use
