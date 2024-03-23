@@ -227,12 +227,14 @@ The views handle incoming requests, process data, and generate responses. THe vi
 
 ## Front-End
 
-This session provides an overview of the front-end code of the Airbnb CLone pplication. The front-end is built with HTML, CSS, and jQuery to display data retrieved from a separate RESTful API.
-[FRONT-END](/web_dynamic)
-The folder below takes the basic structure of a Flask web-app.
+This area provides an overview of the front-end code of the Airbnb CLone pplication. The front-end is built with HTML, CSS, and jQuery to display data retrieved from a separate RESTful API.
 
+[FRONT-END](/web_dynamic)
+
+* The folder below takes the basic structure of a Flask web-app.
+```
              web_dynamic/
-                        ├── [/100-hbnb.py](web_dynamic/100-hbnb.py)
+                        ├── 100-hbnb.py
                         ├── templates/
                         │   └── 100-hnh.html
                         └── static
@@ -242,15 +244,19 @@ The folder below takes the basic structure of a Flask web-app.
                             │       └── .js ***javascript files***
                             └── styles
                                     └── .css ***CSS files used for styling***
+```
+ ***Technology Stack***
 
-            ***Technology Stack***
-HTML: Provides the basic structure and the contents of the web page.
-CSS: Defines the visual styling of the application
-jQuery: A JavaScript used for simple DOM manipulation and asynchronous data fetching.
+[HTML](web_dynamic/templates): Provides the basic structure and the contents of the web page.
+
+[CSS](web_dynamic/static/styles): Defines the visual styling of the application
+
+[jQuery](web_dynamic/static/sripts): A JavaScript used for simple DOM manipulation and asynchronous data fetching.
 
 ***Functionality***
 
-The web-application utilizes jQuery ajax capability to send request to the API endpoints for retrieving data. For example a GET HTTP method on a certain endpoint, 0.0.0.0:5000/states/cities/cities_id/places, retrieves data about places in a certain state and a specific city.
+The web-application utilizes jQuery ajax capability to send request to the API endpoints for retrieving data.\
+For example a GET HTTP method on a certain endpoint, 0.0.0.0:5000/states/cities/cities_id/places, retrieves data about places in a certain state and a specific city.
 The data retrieval from the API is used to populate HTML elements on the web page.
 THe front-end contains a button feature that enables to filter properties by amenities.
 The front-end is responsive and adapts to different screen sizes.
