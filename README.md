@@ -127,6 +127,7 @@ TestBaseModel class:
 * `def test_user_class_docstring(self)` - Test for the User class docstring
 
 ****APIs****
+
 This web application uses RESTful APIs. The REST APIs adhere to principles of REST, Representational State Transfer, a widely used architecture for web services. The REST APIs rely on the HTTP methos=ds GET, POST, PUT, and DELETE for interacting with resources. Resources, in this case, represent data in the backend of the web-application. 
 
 
@@ -136,7 +137,7 @@ THe directory houses the RESTFUL API endpoints that power the backend functional
 [/views](/api/views) - The directory contains the views of the flask web-app.
 The views handle incoming requests, process data, and generate responses. THe views are decorated with @app.route decorator.
 
-*******APiI ENDPOINTS*******.
+*******APi ENDPOINTS*******.
 
 [/users/](/api/v1/views/users.py) - The endpoint for accessing the user data for the web application.
          *  There are various HTTP methods that can be operated on the following endpoint, ie:
