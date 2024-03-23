@@ -14,7 +14,8 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [File Descriptions](#file-descriptions)
 * [Usage](#usage)
 * [Examples of use](#examples-of-use)
-* [APIS](#APIs)
+* [APIs](#APIs)
+* [Front-End](Front-End)
 * [Bugs](#bugs)
 * [Authors](#authors)
 * [License](#license)
@@ -223,6 +224,36 @@ The views handle incoming requests, process data, and generate responses. THe vi
 
 [/stats/](/api/v1/views/index.py) - This API endpoint is used to retrieve the number of various objects by type. The only HTTP method available to it is the GET method.
 
+
+## Front-End
+
+This session provides an overview of the front-end code of the Airbnb CLone pplication. The front-end is built with HTML, CSS, and jQuery to display data retrieved from a separate RESTful API.
+[FRONT-END](/web_dynamic)
+The folder below takes the basic structure of a Flask web-app.
+
+             web_dynamic/
+                        ├── 100-hbnb.py
+                        ├── templates/
+                        │   └── 100-hnh.html
+                        └── static
+                            │── images
+                            │       └── .png ***folder contains images used***
+                            │── scripts
+                            │       └── .js ***javascript files***
+                            └── styles
+                                    └── .css ***CSS files used for styling***
+
+            ***Technology Stack***
+HTML: Provides the basic structure and the contents of the web page.
+CSS: Defines the visual styling of the application
+jQuery: A JavaScript used for simple DOM manipulation and asynchronous data fetching.
+
+***Functionality***
+
+The web-application utilizes jQuery ajax capability to send request to the API endpoints for retrieving data. For example a GET HTTP method on a certain endpoint, 0.0.0.0:5000/states/cities/cities_id/places, retrieves data about places in a certain state and a specific city.
+The data retrieval from the API is used to populate HTML elements on the web page.
+THe front-end contains a button feature that enables to filter properties by amenities.
+The front-end is responsive and adapts to different screen sizes.
 
 ## Bugs
 No known bugs at this time. 
