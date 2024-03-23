@@ -256,9 +256,9 @@ This area provides an overview of the front-end code of the Airbnb CLone pplicat
 ***Functionality***
 
 The web-application utilizes jQuery ajax capability to send request to the API endpoints for retrieving data.\
-For example a GET HTTP method on a certain endpoint, 0.0.0.0:5000/states/cities/cities_id/places, retrieves data about places in a certain state and a specific city.
-The data retrieval from the API is used to populate HTML elements on the web page.
-THe front-end contains a button feature that enables to filter properties by amenities.
+For example a GET HTTP method on a certain endpoint, 0.0.0.0:5000/states/cities/cities_id/places, retrieves data about places in a certain state and a specific city.\
+The data retrieval from the API is used to populate HTML elements on the web page.\
+The front-end contains a button feature that enables to filter properties by amenities.\
 The front-end is responsive and adapts to different screen sizes.
 
 ## Bugs
