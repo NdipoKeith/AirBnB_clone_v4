@@ -150,7 +150,7 @@ EOF  all  create  destroy  help  quit  show  update
 ```
 
 
-****APIs****
+## ****APIs****
 
 This web application uses RESTful APIs. The REST APIs adhere to principles of REST, Representational State Transfer, a widely used architecture for web services. The REST APIs rely on the HTTP methos=ds GET, POST, PUT, and DELETE for interacting with resources. Resources, in this case, represent data in the backend of the web-application. 
 
