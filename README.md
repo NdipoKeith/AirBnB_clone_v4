@@ -232,5 +232,8 @@ David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twit
 David Njagi - [Github](https://github.com/DAVENJAGI)\
 Keith Ndipo - [Github](https://github.com/NdipoKeith)
 
+## DEPLOYMENT
+THE WEBSITE IS NOT CURRENTLY DEPLOYED !!
+
 ## License
 Public Domain. No copy write protection. 
