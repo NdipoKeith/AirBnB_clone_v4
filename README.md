@@ -251,7 +251,7 @@ This area provides an overview of the front-end code of the Airbnb CLone pplicat
 
 [CSS](web_dynamic/static/styles): Defines the visual styling of the application
 
-[jQuery](web_dynamic/static/sripts): A JavaScript used for simple DOM manipulation and asynchronous data fetching.
+[jQuery](web_dynamic/static/scripts): A JavaScript used for simple DOM manipulation and asynchronous data fetching.
 
 ***Functionality***
 
