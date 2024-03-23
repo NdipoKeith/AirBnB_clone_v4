@@ -15,7 +15,7 @@ The console is the first segment of the AirBnB project at Holberton School that 
 * [Usage](#usage)
 * [Examples of use](#examples-of-use)
 * [APIs](#APIs)
-* [Front-End](Front-End)
+* [Front-End](#Front-End)
 * [Bugs](#bugs)
 * [Authors](#authors)
 * [License](#license)
@@ -232,7 +232,7 @@ This session provides an overview of the front-end code of the Airbnb CLone ppli
 The folder below takes the basic structure of a Flask web-app.
 
              web_dynamic/
-                        ├── 100-hbnb.py
+                        ├── [/100-hbnb.py](web_dynamic/100-hbnb.py)
                         ├── templates/
                         │   └── 100-hnh.html
                         └── static
